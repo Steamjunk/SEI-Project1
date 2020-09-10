@@ -12,7 +12,7 @@ The Pharaoh has decreed that the great pyramids of his ancestors be moved so tha
 ### The Game:
 This game is a version of the Tower of Hanoi with pixel graphics of pyramids representing the puzzle pieces. 
 
-After the first move a timer starts. If the time is up and the player has not completed the pyramid the game is over and they are doomed to suffer the mummy's curse. 
+After the first move a timer starts. The timer is a framed by a sun above the pyramid. If the time is up and the player has not completed the pyramid the game is over and they are doomed to suffer the mummy's curse. 
 
 There is a reset button to begin the game again.
 
@@ -21,6 +21,6 @@ The difficulty can be modified by the player before the game by selecting the nu
 ### Flex Goals:
 There is a high score field labeled "The Pharaoh's most favored servants who shall be the first to be sacrificed and entombed with him". If a player completes the game with a top 5 fastest time for that difficulty, they will be immortalized on the plaque. Requires input from the user for the name. These scores will be 
 
-Add animations to the moving pyramid pieces. Create a mummy curse game over screen. Nicer pixel art.
+Add animations to the moving pyramid pieces and to the sun timer in the sky. Create a mummy curse game over screen. Nicer pixel art.
 
-![WireFrame](https://i.imgur.com/1FO0xkI.png)
+![WireFrame](https://i.imgur.com/ZLvMyFW.png)
