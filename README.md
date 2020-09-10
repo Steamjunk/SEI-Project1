@@ -23,4 +23,4 @@ There is a high score field labeled "The Pharaoh's most favored servants who sha
 
 Add animations to the moving pyramid pieces. Create a mummy curse game over screen. Nicer pixel art.
 
-
+![WireFrame](https://i.imgur.com/rMiNm4p.png)
