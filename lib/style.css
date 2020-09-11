@@ -84,3 +84,6 @@ footer {
     width: 100%;
 }
 
+.selected-piece {
+    opacity: 0.5;
+}
