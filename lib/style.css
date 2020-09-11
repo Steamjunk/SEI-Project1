@@ -37,3 +37,43 @@ footer {
     grid-row: 1 / span 3;
     grid-column: 3;
 }
+
+.game-piece{
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: ; */
+}
+
+.game-stack {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30%;
+}
+
+#piece1 {
+    background-color: red;
+    width: 100px;
+}
+
+#piece2 {
+    background-color: green;
+    width: 200px;
+}
+
+#piece3 {
+    background-color: blue;
+    width: 300px;
+}
+
+#piece4 {
+    background-color: pink;
+    width: 400px;
+}
+
+#piece5 {
+    background-color: purple;
+    width: 500px;
+}
