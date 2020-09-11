@@ -38,42 +38,50 @@ footer {
     grid-column: 3;
 }
 
-.game-piece{
-    height: 50px;
-    margin: 0 auto;
-    display: flex;
-    /* flex-direction: ; */
+#game-field {
+    display: inline;
+    float: left;
 }
 
 .game-stack {
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column; 
+    
+    
+    /* display: inline;
+    float: left; */
     height: 100%;
-    width: 30%;
+    width: 30%; 
 }
+
+.game-piece{
+    height: 15%;
+    margin: 0;
+}
+                        
 
 #piece1 {
     background-color: red;
-    width: 100px;
+    width: 20%;
 }
 
 #piece2 {
     background-color: green;
-    width: 200px;
+    width: 40%;
 }
 
 #piece3 {
     background-color: blue;
-    width: 300px;
+    width: 60%;
 }
 
 #piece4 {
     background-color: pink;
-    width: 400px;
+    width: 80%;
 }
 
 #piece5 {
     background-color: purple;
-    width: 500px;
+    width: 100%;
 }
