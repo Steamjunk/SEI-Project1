@@ -39,18 +39,16 @@ footer {
 }
 
 #game-field {
-    display: inline;
-    float: left;
+    display: flex;
+    flex-direction: row; 
 }
 
 .game-stack {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column; 
-    
-    
-    /* display: inline;
-    float: left; */
+    justify-content: flex-end;
+    align-items: center;
     height: 100%;
     width: 30%; 
 }
