@@ -38,13 +38,7 @@ h2 {
     width: 50px;
     border-radius: 50%;
     background: yellow;
-}
-
-h3 {
-    margin: auto;
-    display: inline;
-    transition: top 2s, left 2s;
-    transition-timing-function: linear;
+    text-align: center;
 }
 
 #game-field {
