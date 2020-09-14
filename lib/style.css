@@ -27,20 +27,21 @@ h2 {
 
 #sky {
     background: #80DAEB;
-    height: 10%;
+    height: 20%;
     width: 100%;
     position: relative;
 }
 
 #sun {
     position: absolute;
-    height: 50px;
+    height: 100%;
     width: 50px;
+    border-radius: 50%;
+    background: yellow;
 }
 
 h3 {
-    margin: 0;
-    background: yellow;
+    margin: auto;
     display: inline;
     transition: top 2s, left 2s;
     transition-timing-function: linear;
