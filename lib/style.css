@@ -9,6 +9,18 @@ header {
     grid-row: 1;
     grid-column: 2;
     text-align: center;
+    background: #E2AB68;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #7A4F25;
+    border-width: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside {
+    background: #E2AB68;
+    padding: 10px;
 }
 
 h2 {
@@ -22,7 +34,10 @@ h2 {
     flex-direction: column; 
     justify-content: flex-start;
     align-items: center;
-    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: #7A4F25;
+    border-width: 10px;
 }
 
 #sky {
@@ -39,6 +54,8 @@ h2 {
     border-radius: 50%;
     background: yellow;
     text-align: center;
+    padding: 5px;
+
 }
 
 #game-field {
