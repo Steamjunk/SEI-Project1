@@ -29,6 +29,13 @@ h2 {
     background: #80DAEB;
     height: 10%;
     width: 100%;
+    position: relative;
+}
+
+#sun {
+    position: absolute;
+    height: 50px;
+    width: 50px;
 }
 
 h3 {
