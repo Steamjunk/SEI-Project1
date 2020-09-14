@@ -27,6 +27,8 @@ h2 {
 .sky {
     background: #80DAEB;
     height: 10%;
+    width: 100%;
+
 }
 
 h3 {
@@ -130,3 +132,6 @@ footer {
     grid-column: 2;
 }
 
+.hidden {
+    display: none;
+}
