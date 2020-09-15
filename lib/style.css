@@ -18,6 +18,8 @@ header {
     padding: 10px;
     margin: auto 10px;
     height: 20vh;
+    width: 80%;
+    margin: 0 auto;
 }
 
 h1 {
