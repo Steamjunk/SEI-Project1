@@ -168,12 +168,16 @@ h4 {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 
-footer {
-    grid-row: 3;
-    grid-column: 2;
+ol {
+    padding-inline-start: 10px;
+    padding: 10px;
+    width: 80%
+}
+
+button {
+    margin: 10px;
 }
 
 #end-game-scene {
