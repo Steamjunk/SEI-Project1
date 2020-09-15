@@ -27,7 +27,7 @@ This app uses HTML, CSS and JavaScript
 ### Approach
 The game is held entirely within a gameObject and a gameManager class in the script. 
 
-The game field is modeled as three stacks, each holding zero or more pieces. One stack is selected and then another, if a piece can be legally moved it resolves.
+The game field is modeled as three stacks, each holding zero or more pieces. One stack is selected and then another, if a piece can be legally moved it resolves. Stacks and pieces are drawn on page load not included in HTML.
 
 I designed the game scene to be user friendly. The block selection region is large and ground sections are labeled to be more intuitive. Pieces can be quickly moved by a skilled player to get good times.
 
