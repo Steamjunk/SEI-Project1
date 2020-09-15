@@ -136,12 +136,24 @@ p {
     height: 10%;
     width: 100%; 
     background: #F5D3A5;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.ground-marker {
+    height: 100%;
+    width: 30%; 
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
 h4 {
     margin: 0;
     display: inline;
-    background: chartreuse;
+    background: #E2AB68;
+    border-radius: 30%;
 }
 
 .left-column {
@@ -196,11 +208,12 @@ button {
     max-width: 100%;
     /* height: 100%; */
     margin: auto;
-    max-height: 300px;
+    max-height: 50vh;
 }
 
 .end-game-text {
     padding: 10px;
+    text-align: center;
 }
 
 
