@@ -151,13 +151,14 @@ footer {
     grid-column: 2;
 }
 
-.hidden {
-    display: none;
+#end-game-scene {
+    margin: auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 10px solid #7A4F25; */
 }
-
-/* #end-game-scene {
-
-} */
 
 .end-game-image {
     object-fit: contain;
@@ -165,4 +166,13 @@ footer {
     /* height: 100%; */
     margin: auto;
     max-height: 300px;
+}
+
+.end-game-text {
+    padding: 10px;
+}
+
+
+.hidden {
+    display: none;
 }
