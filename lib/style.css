@@ -33,9 +33,10 @@ h2 {
     flex-direction: column; 
     justify-content: flex-start;
     align-items: center;
-    margin: 10px;
+    margin: 10px auto;
     border: 10px solid #7A4F25;
     height: 80%;
+    width: 95%;
 }
 
 #sky {
@@ -56,11 +57,17 @@ h2 {
 
 }
 
+.game-field-wrapper {
+    background: #80DAEB;
+    height: 80%;
+    width: 100%;
+}
+
 #game-field {
     display: flex;
     flex-direction: row; 
-    background: #80DAEB;
-    height: 80%;
+    /* background: #80DAEB; */
+    height: 100%;
     width: 100%;
 }
 
@@ -151,6 +158,8 @@ footer {
 
 .end-game-screen {
     object-fit: contain;
-    /* height: 100%;
-    width: 100%; */
+    max-width: 50%;
+    /* height: 100%; */
+    margin: auto;
+    max-height: 300px;
 }
