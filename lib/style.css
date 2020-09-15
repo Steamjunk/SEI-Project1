@@ -167,7 +167,8 @@ h4 {
 .right-column {
     grid-row: 1 / span 2;
     grid-column: 3;
-    height: 100vh;
+    height: 98vh;
+    padding: 1vh 0;
 }
 
 .side-box {
