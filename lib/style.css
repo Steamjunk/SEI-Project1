@@ -3,6 +3,7 @@ body {
     display: grid;
     grid-template-rows: 2fr 4fr 1fr;
     grid-template-columns: 1fr 5fr 1fr;
+    font-family: 'Cinzel', serif;
 }
 
 header {
@@ -35,7 +36,7 @@ h2 {
     align-items: center;
     margin: 10px auto;
     border: 10px solid #7A4F25;
-    height: 80%;
+    height: 90%;
     width: 95%;
 }
 
@@ -66,7 +67,6 @@ h2 {
 #game-field {
     display: flex;
     flex-direction: row; 
-    /* background: #80DAEB; */
     height: 100%;
     width: 100%;
 }
@@ -155,7 +155,7 @@ footer {
     display: none;
 }
 
-/* .end-game-scene {
+/* #end-game-scene {
 
 } */
 
