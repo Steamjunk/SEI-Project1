@@ -1,9 +1,11 @@
 body {
     background: #EDC9AF;
     display: grid;
-    grid-template-rows: 2fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-columns: 1fr 5fr 1fr;
     font-family: 'Cinzel', serif;
+    height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -14,17 +16,21 @@ header {
     border-radius: 10%;
     border: 10px solid #7A4F25;
     padding: 10px;
-    margin: 10px;
-    height: 60%;
+    margin: auto 10px;
+    height: 20vh;
 }
 
-aside {
-    background: #E2AB68;
-    padding: 10px;
+h1 {
+    margin: 0;
 }
 
 h2 {
     text-align: center;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
 }
 
 #scene {
@@ -36,7 +42,7 @@ h2 {
     align-items: center;
     margin: 10px auto;
     border: 10px solid #7A4F25;
-    height: 90%;
+    height: 50vh;
     width: 95%;
 }
 
@@ -136,14 +142,33 @@ h4 {
     background: chartreuse;
 }
 
-.rules {
-    grid-row: 1 / span 3;
+.left-column {
+    grid-row: 1 / span 2;
     grid-column: 1;
+    height: 98vh;
+    padding: 1vh 0;
+
 }
 
-.high-score {
-    grid-row: 1 / span 3;
+.right-column {
+    grid-row: 1 / span 2;
     grid-column: 3;
+    height: 100vh;
+}
+
+.side-box {
+    background: #E2AB68;
+    height: 80vh;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 footer {
@@ -175,4 +200,10 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.column-end {
+    height: 5vh;
+    background: #7A4F25;
+    width: 100%;
 }

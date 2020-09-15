@@ -8,63 +8,64 @@
         <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Red+Rose:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>PYRAMID PANIC!</h1>
-            <p>The Pharaoh has decreed that the great pyramids of his 
-                ancestors be moved so that they do not block his view 
-                of the sun at the palace. It sounds mad to move an 
-                entire pyramid, but the word of the Pharaoh is law! 
-                So you'd better get started...</p>
-        </header>
-
-        <div id='scene'>
-            <div id='sky'>
-                <div id='sun' class='hidden'>
-                    <h3 id='timer'></h3>
+        <div class='center-column'>
+            <header>
+                <h1>PYRAMID PANIC!</h1>
+                <p>The Pharaoh has decreed that the great pyramids of his 
+                    ancestors be moved so that they do not block his view 
+                    of the sun at the palace. It sounds mad to move an 
+                    entire pyramid, but the word of the Pharaoh is law! 
+                    So you'd better get started...</p>
+            </header>
+    
+            <div id='scene'>
+                <div id='sky'>
+                    <div id='sun' class='hidden'>
+                        <h3 id='timer'></h3>
+                    </div>
                 </div>
+                <div class="game-field-wrapper">
+                    <div id='game-field'></div>
+                </div>
+                <div id='ground'>
+                    <h4>Start</h4>
+                    <h4>Final Resting Place</h4>
+                </div>
+                <div id='end-game-scene' class='hidden'></div>
             </div>
-            <div class="game-field-wrapper">
-                <div id='game-field'></div>
-            </div>
-            <div id='ground'>
-                <h4>Start</h4>
-                <h4>Final Resting Place</h4>
-            </div>
-            <div id='end-game-scene' class='hidden'></div>
         </div>
 
-        <aside class='rules'>
-            <h2>RULES</h2>
-            <ol>
-                <li>One pyramid piece may be moved at a time.</li>
-                <li>A pyramid piece can be moved to any open spot or on top of another piece.</li>
-                <li>No larger pyramid piece may be stacked on top of a smaller piece</li>
-                <li>Move the entire pyramid to its final resting place before sundown or face the wrath of the Pharaoh!</li>
-            </ol>
+        <aside class='left-column'>
+            <div class='column-end'></div>
+            <div class='side-box'>
+                <h2>RULES</h2>
+                <ol>
+                    <li>One piece may be moved at a time.</li>
+                    <li>A piece can be moved to any open spot or on top of a larger piece.</li>
+                    <li>Move the entire pyramid to its final resting place before sundown or else!</li>
+                </ol>
+            </div>
+            <div class='column-end'></div>
         </aside>
 
-        <aside class='high-score'>
-            <h2>THE  PHARAOH'S MOST FAVORED SERVANTS WHO SHALL BE ENTOMBED WITH HIM</h2>
-            <h2>FASTEST TIMES</h2>
-            <ol>
-                <li>1:00 Ramses II</li>
-                <li>1:30 Tutankhamen</li>
-                <li>2:00 Nefertiti</li>
-                <li>2:30 Amenhotep III</li>
-                <li>3:00 Cleopatra</li>
-            </ol>
+        <aside class='right-column'>
+            <div class='column-end'></div>
+            <div class='side-box'>
+                <div id='difficulty-box'>
+                    <label for="difficulty">Choose your pyramid</label>
+                    <select name="difficulty" id="difficulty">
+                        <option value="4">Tiny Tut (4)</option>
+                        <option value="6">Regular Ramses (6)</option>
+                        <option value="8">Huge Hatshepsut (8)</option>
+                    </select>
+                </div>
+                <button class='reset-button'>Reset</button>
+            </div>
+            <div class='column-end'></div>
         </aside>
 
         <footer>
-            <div id='difficulty-box'>
-                <label for="difficulty">Choose your pyramid</label>
-                <select name="difficulty" id="difficulty">
-                    <option value="4">Tiny Tut (4)</option>
-                    <option value="6">Regular Ramses (6)</option>
-                    <option value="8">Huge Hatshepsut (8)</option>
-                </select>
-            </div>
-            <button class='reset-button'>Reset</button>
+
         </footer>
         <script src='./lib/script.js'></script>
     </body>
